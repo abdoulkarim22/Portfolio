@@ -34,7 +34,7 @@ function WorkDetailCard() {
 
         {/* for adding Certification courses  */}
         <div className="px-14 py-5  ">
-        en cours ....
+           À venir!!
           <h1 className="text-2xl text-black font-semibold flex space-x-2">
             {/* <span className="dark:text-white">Certification Courses</span> */}
           </h1>

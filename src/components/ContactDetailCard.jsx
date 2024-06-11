@@ -53,81 +53,41 @@ function ContactDetailCard() {
           <div className="flex md:space-x-4 space-x-2">
             <h2 className="text-4xl text-black dark:text-white font-semibold ">Contact</h2>
             <div className=" relative ">
-              <hr className="w-20 md:w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg " />
+              <hr className="w-20 md:w-52 h-1 bg-green-600  top-1/2 absolute rounded-lg " />
             </div>
           </div>
-          <div className="my-5 bg-gray-100 dark:bg-slate-900 rounded-lg p-5 md:px-10  ">
-
-            {/* contact message  */}
-            <div className="my-5">
-              <p className="text-xl">
-                I am eager to know  your{" "}
-                <span className="text-xl text-red-500 font-semibold">
-                  Thoughts and Ideas !
-                </span>
-              </p>
-            </div>
-
-            {/* contact form  */}
-            <form onSubmit={handleSubmit} className="space-y-10">
-              {/* for name  */}
-              <div className="" onClick={handleInputClick1}>
-                <label
-                  className={"block " + (input1.click ? "text-pink-600" : "")}
-                  htmlFor="name"
-                >
-                  Name*
-                </label>
-                <input
-                  style={{ outline: "none", height: input1.height }}
-                  className={"w-11/12  bg-transparent border-b-2"+(input1.click ? " border-b-pink-600" : " border-b-gray-400")}
-                  type="text"
-                  id="name"
-                  required
-                />
-              </div>
-
-              {/* for email  */}
-              <div onClick={handleInputClick2}>
-                <label
-                  className={"block " + (input2.click ? "text-purple-500" : "")}
-                  htmlFor="email"
-                >
-                  Email*
-                </label>
-                <input
-                  style={{ outline: "none", height: input2.height }}
-                  className={"w-11/12  bg-transparent border-b-2"+(input2.click ? " border-b-purple-500" : " border-b-gray-400")}
-                  type="email"
-                  id="email"
-                  required
-                />
-              </div>
-
-              {/* for text area  */}
-              <div onClick={handleInputClick3}>
-                <label
-                  className={"block " + (input3.click ? "text-green-500" : "")}
-                  htmlFor="message"
-                >
-                  Message*
-                </label>
-                <textarea
-               
-                  style={{ outline: "none",height:input3.height}}
-                  className={"w-11/12  bg-transparent border-b-2"+(input3.click ? " border-b-green-500" : " border-b-gray-400")}
-                  id="message"
-                  required
-                />
-              </div>
-              <button
-                type="submit"
-                className="py-2 px-5 bg-blue-100 hover:bg-red-600 hover:text-white   rounded-lg border border-black"
-              >
-                {status}
-              </button>
-            </form>{" "}
+          <h1 className="text-2xl font-bold text-white mb-6">Contact Form</h1>
+        <form className="space-y-4">
+          <div>
+            <label className="block text-gray-400 mb-1" htmlFor="fullName">Full Name</label>
+            <input 
+              type="text" 
+              id="fullName" 
+              className="w-full p-2 border border-green-900 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+            />
           </div>
+          <div>
+            <label className="block text-gray-400 mb-1" htmlFor="email">Email Address</label>
+            <input 
+              type="email" 
+              id="email" 
+              className="w-full p-2 border border-green-900 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+            />
+          </div>
+          <div>
+            <label className="block text-gray-400 mb-1" htmlFor="message">Your Message</label>
+            <textarea 
+              id="message" 
+              className="w-full p-2 border border-green-900 rounded focus:outline-none focus:ring-2 focus:ring-green-500 rounded h-32"
+            ></textarea>
+          </div>
+          <button 
+            type="submit" 
+            className="w-full p-2 bg-green-600 text-gray-900 font-bold rounded hover:bg-transparent-600 focus:outline-none focus:ring-2 "
+          >
+            Send Message
+          </button>
+        </form>
         </div>
 
         <Footer />
