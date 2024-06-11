@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/Profile.jpg";
+import image from "../assets/Design sans titre (11).png";
 import Socialicon from "./Socialicon";
 import Address from "./Address";
 
@@ -13,7 +13,7 @@ function Info() {
         <div className="py-10 xl:py-4 rounded-2xl px-7 mb-5  text-center  justify-center  shadow-sm dark:text-white bg-white dark:bg-black  p-5">
           {/*I want to make this sticky like after scroll it stick till all below end */}
           <img
-            className="xl:-mt-32 h-56 w-56 mb-5 rounded-2xl mx-auto "
+            className="xl:-mt-32 h-50 w-56 mb-5 rounded-2xl mx-auto "
             src={image}
             alt=""
           />
@@ -28,7 +28,7 @@ function Info() {
           {/* spacce for address and info  */}
           <Address />
           {/* download cv button  */}
-          <a href="https://docs.google.com/document/d/1nzobWt6yBu3bWq1Aqj-dhbQPAhAF4t6Ys32QhT1tXQw/edit?usp=sharing" className=" bg-gradient-to-r from-red-400  to-pink-500 py-3 px-10 my-4 text-xl text-white rounded-full  flex mx-10">
+          <a href="https://docs.google.com/document/d/1nzobWt6yBu3bWq1Aqj-dhbQPAhAF4t6Ys32QhT1tXQw/edit?usp=sharing" className=" bg-green-600 from-red-400  to-pink-500 py-3 px-10 my-4 text-xl text-white rounded-full  flex mx-10">
             
             <div className="flex mx-auto">
             <span className="">

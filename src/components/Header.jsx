@@ -52,7 +52,7 @@ function Header() {
     <div class="mx-11   mb-2 md:mb-16 lg:mx-32  flex justify-end space-x-3 ">
       {/* <!-- for dark mode button  --> */}
       <div
-        class="w-10 h-10 bg-white dark:bg-gray-900 hover:bg-red-500 dark:hover:bg-red-500 shadow-sm shadow-black rounded-full cursor-pointer "
+        class="w-10 h-10 bg-white bg-green-600 hover:bg-red-500 dark:hover:bg-red-500 shadow-sm shadow-black rounded-full cursor-pointer "
         onClick={toggleDarkMode}
       >
         {!isDarkMode && (
