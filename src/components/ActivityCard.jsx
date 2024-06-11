@@ -4,7 +4,7 @@ function ActivityCard(props) {
   return (
     <section>
       {/* link 1  */}
-      <a href={props.link} target="_blank">
+      {/* <a href={props.link} target="_blank">
         <div
           // onClick={}
           // you must set a gap between where m-3 end else not work
@@ -33,7 +33,7 @@ function ActivityCard(props) {
             </div>
           </div>
         </div>
-      </a>
+      </a> */}
     </section>
   );
 }
