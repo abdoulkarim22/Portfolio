@@ -18,10 +18,10 @@ function Info() {
             alt=""
           />
           {/* my name  */}
-          <h1 className="box-border  text-2xl font-semibold">Atul Kumar</h1>
+          <h1 className="box-border  text-2xl font-semibold">Abdoul Karim Soumana</h1>
           {/* profession name  */}
           <span className="font-medium mt-3 mb-2 inline-block  py-1 px-5 bg-gray-100 dark:bg-slate-800 text-[#a6a6a6]  rounded-md  ">
-            Software Developer
+             Developer Web et Mobile
           </span>
           {/* space for Socialicon  */}
           <Socialicon />

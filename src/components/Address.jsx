@@ -19,7 +19,7 @@ function Address() {
         <div className="text-start">
           <span className="text-sm text-slate-500">Phone</span>
           <a href="#">
-            <p>6202326473</p>
+            <p>(+227)80 07 70 79</p>
           </a>
         </div>
       </div>
@@ -40,7 +40,7 @@ function Address() {
         <div className="text-start">
           <span className="text-sm text-slate-500">Email</span>
           <a href="#">
-            <p>919atul@gmail.com</p>
+            <p>abdoulkarimsoumana62@gmail.com</p>
           </a>
         </div>
       </div>
@@ -61,7 +61,7 @@ function Address() {
         <div className="text-start">
           <span className="text-sm text-slate-500">Location </span>
           <a href="#">
-            <p>Aurangabad, Bihar India </p>
+            <p>Niamey,  Niger</p>
           </a>
         </div>
       </div>
@@ -82,7 +82,7 @@ function Address() {
         <div className="text-start">
           <span className="text-sm text-slate-500">Birthday</span>
           <a href="#">
-            <p>September 9, 2002</p>
+            <p>juin 12</p>
           </a>
         </div>
         
