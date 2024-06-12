@@ -13,7 +13,7 @@ function WorkDetailCard() {
               Activities
             </h2>
             <div className=" relative ">
-              <hr className="w-20 md:w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg" />
+              <hr className="w-20 md:w-52 h-1 bg-green-600  top-1/2 absolute rounded-lg" />
             </div>
           </div>
 
