@@ -48,7 +48,7 @@ function ProjectDetailCard() {
               Projects
             </h2>
             <div className=" relative ">
-              <hr className="w-20 md:w-52 h-1 bg-red-500  top-1/2 absolute rounded-lg" />
+              <hr className="w-20 md:w-52 h-1 bg-green-600  top-1/2 absolute rounded-lg" />
             </div>
           </div>
 
@@ -59,13 +59,13 @@ function ProjectDetailCard() {
               <span
                 onClick={handleNavAll}
                 className={
-                  "cursor-pointer hover:text-red-500 font-semibold  " +
-                  (projectNav === 0 ? "text-red-500" : "")
+                  "cursor-pointer hover:text-green-600 font-semibold  " +
+                  (projectNav === 0 ? "text-green-600" : "")
                 }
               >
                 All
               </span>
-              <span
+              {/* <span
                 onClick={handleNavFE}
                 className={
                   "cursor-pointer hover:text-red-500 font-semibold  " +
@@ -100,7 +100,7 @@ function ProjectDetailCard() {
                 }
               >
                 Design
-              </span>
+              </span> */}
             </div>
 
             {/* for project cards  */}
