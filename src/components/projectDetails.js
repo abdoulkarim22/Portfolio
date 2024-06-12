@@ -1,6 +1,6 @@
 import bank from "../assets/bank.png";
 import busApi from "../assets/bus-api.png";
-import amazon1 from "../assets/amazon.png";
+import SitewebEnavl from "../assets/Steweb-Enval.png"
 import amazon2 from "../assets/amazon2.png";
 import calculator from "../assets/calculator.png";
 import authentication from "../assets/authentication.png";
@@ -16,31 +16,16 @@ import signUp from "../assets/signUp.png";
 const projectDetails = [
   {
     id: 2,
-    title: "Amazon Clone",
-    source: "https://github.com/1atul0/Amazon-clone",
-    image: amazon1,
-    tag: "clone, Authentication, Firebase, ReactJS",
+    title: " Enval laboratoire",
+    source: "https://github.com/abdoulkarim22/envalAPP",
+    image: SitewebEnavl,
+    tag: "Enval  laboratoire  Site Web",
     teamSize: "1",
     linkStatus: "not hosted",
     link: "#",
-    description:
-      "I had made this project after learning full-stack web development from Udemy by Angela Yu(Web-Development Bootcamp by Angela Yu). This is my full-stack project where I used Firebase for handle backend related work like Authentication System, Saved items on cart i.e database etc. I made this full-stack web with the help of Clever programmer(Youtube channel).",
-    features: (
-      <p>
-        <p>1. Beautifull and responsive user-interface and user-experience</p>
-        <p>2. Added Authentication System of Firebase for secure logging </p>
-        <p>3. Used usestate and Redux for handling change on content.</p>
-        <p>
-          4. used Firebase for handle user history like:- items in user's cart
-          etc.{" "}
-        </p>
-        <p>
-          5. Added different route for different work using React Link property.
-        </p>
-      </p>
-    ),
-    frontend: "ReactJS, React Hook Form, Redux",
-    backend: "Firebase",
+    // description:
+    //   "I had made this project after learning full-stack web development from Udemy by Angela Yu(Web-Development Bootcamp by Angela Yu). This is my full-stack project where I used Firebase for handle backend related work like Authentication System, Saved items on cart i.e database etc. I made this full-stack web with the help of Clever programmer(Youtube channel).",
+    frontend: "Html, Css Js",
   },
   {
     id: 1,

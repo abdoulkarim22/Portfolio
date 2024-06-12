@@ -191,25 +191,21 @@ function ProjectCard(props) {
 
                 {/* desciption  */}
                 <div className="mt-10">
-                  <h1 className="text-lg  font-semibold my-2">Description:</h1>
+                  {/* <h1 className="text-lg  font-semibold my-2">Description:</h1> */}
                   <p>{props.description}</p>
                 </div>
 
                 {/* for features  */}
                 <div className="mt-10">
-                  <h1 className="text-lg font-semibold my-2">Features:</h1>
+                  {/* <h1 className="text-lg font-semibold my-2">Features:</h1> */}
                   <p>{props.features}</p>
                 </div>
                 {/* for Technologies  */}
                 <div className="mt-10">
                   <h1 className="text-lg font-semibold my-2">Technologies:</h1>
                   <p>
-                    <span className="font-semibold">Frontend: </span>
+                    <span className="font-semibold">: </span>
                     {props.frontend}
-                  </p>
-                  <p>
-                    <span className="font-semibold">Backend: </span>
-                    {props.backend}
                   </p>
                 </div>
 

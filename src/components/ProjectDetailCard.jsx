@@ -114,8 +114,6 @@ function ProjectDetailCard() {
                     img={projectDetail.image}
                     tag={projectDetail.tag}
                     title={projectDetail.title}
-                    description={projectDetail.description}
-                    features={projectDetail.features}
                     source={projectDetail.source}
                     link={projectDetail.link}
                     linkStatus={projectDetail.linkStatus}
@@ -140,8 +138,6 @@ function ProjectDetailCard() {
                     img={projectDetail.image}
                     tag={projectDetail.tag}
                     title={projectDetail.title}
-                    description={projectDetail.description}
-                    features={projectDetail.features}
                     source={projectDetail.source}
                     link={projectDetail.link}
                     linkStatus={projectDetail.linkStatus}
