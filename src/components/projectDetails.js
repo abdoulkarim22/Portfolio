@@ -1,11 +1,10 @@
 import bank from "../assets/bank.png";
 import busApi from "../assets/bus-api.png";
 import SitewebEnavl from "../assets/Steweb-Enval.png"
-import amazon2 from "../assets/amazon2.png";
+import sitewebNinetech from "../assets/Site-web-ninetech.png"
 import calculator from "../assets/calculator.png";
 import authentication from "../assets/authentication.png";
 import drumkit from "../assets/drumkit.png";
-import keeper from "../assets/keeper.png";
 import portfolio from "../assets/portfolio.png";
 import portfolionew from "../assets/portfolionew.png";
 import simon from "../assets/simon.png";
@@ -29,10 +28,10 @@ const projectDetails = [
   },
   {
     id: 1,
-    title: "Keeper App",
-    source: "https://github.com/1atul0/Keeper",
-    image: keeper,
-    tag: "note-taking app, ReactJS",
+    title: "Ninetec",
+    source: "https://github.com/abdoulkarim22/HackathonNinetec",
+    image: sitewebNinetech,
+    tag: "site web app, ReactJS",
     teamSize: "1",
     linkStatus: "not hosted",
     link: "#",
