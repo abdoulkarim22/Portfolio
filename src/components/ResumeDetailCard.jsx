@@ -89,6 +89,9 @@ function ResumeDetailCard() {
                 <div className="flex flex-wrap dark:text-[#a6a6a6]">
                   <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2"> Github</span>
                 </div>
+                <div className="flex flex-wrap dark:text-[#a6a6a6]">
+                  <span className="bg-white dark:bg-black p-2 rounded-md mr-2 mb-2"> Android Studio</span>
+                </div>
               </div>
 
               {/* third skill  */}
