@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF } from "@fortawesome/free-solid-svg-icons";
 
-function Socialicon() {
+function ocialicon() {
   return (
     <main className="space-x-3 mt-2">
       {/* facebook  */}
