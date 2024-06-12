@@ -1,7 +1,7 @@
 import Sitevaincrelecancer from "../assets/Site-web-cancer.png"
 import SitewebEnavl from "../assets/Steweb-Enval.png"
 import sitewebNinetech from "../assets/Site-web-ninetech.png"
-import authentication from "../assets/authentication.png";
+import appAibnb from "../assets/AppAirbnb .png"
 import portfolioDesign from "../assets/portfoliodesign.png";
 
 const projectDetails = [
@@ -44,7 +44,7 @@ const projectDetails = [
     id: 2,
     title: "Airbnb",
     source: "https://github.com/abdoulkarim22/APP-NI",
-    image: authentication,
+    image: appAibnb,
     tag: "React Naitve, Expo",
     teamSize: "1",
     linkStatus: "not hosted",
